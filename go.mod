@@ -4,7 +4,7 @@ go 1.24.2
 
 require (
 	github.com/debyten/database v0.0.0-20250522223530-4e7771e834bc
-	github.com/debyten/gorm-adapter v0.0.0-20250522224233-28cf43d9e711
+	github.com/debyten/gorm-adapter v0.0.0-20250522224746-2854a1eaf032
 	gorm.io/driver/mysql v1.5.7
 	gorm.io/gorm v1.26.1
 )

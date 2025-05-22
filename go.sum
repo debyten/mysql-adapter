@@ -12,6 +12,8 @@ github.com/debyten/gorm-adapter v0.0.0-20250522223515-2983517b21a5 h1:srsUg8tlOY
 github.com/debyten/gorm-adapter v0.0.0-20250522223515-2983517b21a5/go.mod h1:qd10fHI/rl4Hn3KnR0kO7DZ0jq7zCoNgXS7obituWZs=
 github.com/debyten/gorm-adapter v0.0.0-20250522224233-28cf43d9e711 h1:uK1PIdTMZDVJ6Az4cj7UFhZERcwBWCQIKTVpfXES94g=
 github.com/debyten/gorm-adapter v0.0.0-20250522224233-28cf43d9e711/go.mod h1:R9/Nlo08QHOwLUVMj4Rz1quuDkdgY1MKr3Fta15v9Ng=
+github.com/debyten/gorm-adapter v0.0.0-20250522224746-2854a1eaf032 h1:smSGqjkmgzd7sY5s/FGYde69Rlq7NO7njPCJQ7DdcuY=
+github.com/debyten/gorm-adapter v0.0.0-20250522224746-2854a1eaf032/go.mod h1:R9/Nlo08QHOwLUVMj4Rz1quuDkdgY1MKr3Fta15v9Ng=
 github.com/go-logr/logr v1.2.2/go.mod h1:jdQByPbusPIv2/zmleS9BjJVeZ6kBagPoEUsqbVz/1A=
 github.com/go-logr/logr v1.4.2 h1:6pFjapn8bFcIbiKo3XT4j/BhANplGihG6tvd+8rYgrY=
 github.com/go-logr/logr v1.4.2/go.mod h1:9T104GzyrTigFIr8wt5mBrctHMim0Nb2HLGrmQ40KvY=
