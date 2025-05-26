@@ -5,6 +5,7 @@ import (
 
 	"github.com/debyten/database/dbconf"
 	gormdb "github.com/debyten/gorm-adapter"
+	_ "github.com/golang-migrate/migrate/v4/database/mysql"
 	msq "gorm.io/driver/mysql"
 
 	"gorm.io/gorm"

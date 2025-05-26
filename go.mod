@@ -3,10 +3,11 @@ module github.com/debyten/mysql-adapter
 go 1.24.2
 
 require (
-	github.com/debyten/database v0.0.0-20250522223530-4e7771e834bc
-	github.com/debyten/gorm-adapter v0.0.0-20250522224746-2854a1eaf032
+	github.com/debyten/database v0.0.1
+	github.com/debyten/gorm-adapter v0.0.1
+	github.com/golang-migrate/migrate/v4 v4.18.3
 	gorm.io/driver/mysql v1.5.7
-	gorm.io/gorm v1.26.1
+	gorm.io/gorm v1.30.0
 )
 
 require (
@@ -16,7 +17,6 @@ require (
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-sql-driver/mysql v1.9.2 // indirect
 	github.com/gobeam/stringy v0.0.7 // indirect
-	github.com/golang-migrate/migrate/v4 v4.18.3 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
