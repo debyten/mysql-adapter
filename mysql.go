@@ -11,14 +11,14 @@ import (
 	"gorm.io/gorm"
 )
 
-func NewConfiguration[V string | uint | uint32 | uint64 | int | int32 | int64](defaultDB string, idGenerator gormdb.IDGeneratorRegistry[V]) *gormdb.Configuration {
-	ds := dbconf.NewMysql(defaultDB)
+func NewConfiguration[V string | uint | uint32 | uint64 | int | int32 | int64](defaultDB string, idGenerator gormdb.IDGeneratorRegistry[V], additionalParams ...map[string]string) *gormdb.Configuration {
+	ds := dbconf.NewMysql(defaultDB, additionalParams...)
 	prov := NewProvider(ds)
 	return gormdb.NewConfiguration(ds, prov, idGenerator)
 }
 
-func WithMigrations[V string | uint | uint32 | uint64 | int | int32 | int64](defaultDB string, idGenerator gormdb.IDGeneratorRegistry[V], migrations fs.FS, execMigrations bool) *gormdb.Configuration {
-	cfg := NewConfiguration(defaultDB, idGenerator)
+func WithMigrations[V string | uint | uint32 | uint64 | int | int32 | int64](defaultDB string, idGenerator gormdb.IDGeneratorRegistry[V], migrations fs.FS, execMigrations bool, additionalParams ...map[string]string) *gormdb.Configuration {
+	cfg := NewConfiguration(defaultDB, idGenerator, additionalParams...)
 	return cfg.MustSetMigrations(migrations, execMigrations)
 }
 
